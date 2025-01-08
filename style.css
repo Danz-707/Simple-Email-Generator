@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #00a6fb;
+	opacity: 1;
+	background-image: radial-gradient(
+			#ffffff 1px,
+			transparent 1px
+		),
+		radial-gradient(#ffffff 1px, #00a6fb 1px);
+	background-size: 40px 40px;
+	background-position: 0 0, 20px 20px;
+}
+.container {
+	max-width: 700px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.container h1 {
+	padding: 30px 10px;
+	font-family: monaco;
+	font-weight: 800;
+	font-size: 75px;
+	font-weight: bold;
+}
+.container p {
+	margin-bottom: 40px;
+	font-size: 24px;
+	font-family: monaco;
+	text-align: center;
+	font-weight: bold;
+}
+.container button {
+	padding: 20px 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: monaco;
+	background: #f5b700;
+	color: black;
+	border-radius: 25px;
+	text-align: center;
+}
+.content {
+	align-items: center;
+}
+#close {
+	z-index: 1;
+	position: relative;
+	top: 35px;
+	left: 350px;
+	background: none;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+#close i {
+	color: black;
+	font-size: 25px;
+}
+
+.email {
+	width: 750px;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	background: #f5b700;
+	color: black;
+	display: none;
+	border-radius: 25px;
+}
+.email p {
+	font-family: monaco;
+	font-size: 20px;
+	letter-spacing: 7px;
+	font-weight: bold;
+}
